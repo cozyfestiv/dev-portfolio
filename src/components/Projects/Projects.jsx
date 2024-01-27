@@ -4,6 +4,7 @@ import wlm from "../../assets/wlm.png";
 import pTables from "../../assets/periodic-tables.png";
 import recipe from "../../assets/portfolio-recipe.png";
 import sai from "../../assets/portfolio-sai.png";
+import flash from "../../assets/portfolio-flash.png";
 
 const Projects = () => {
   return (
@@ -33,6 +34,9 @@ const Projects = () => {
         >
           <img src={wlm} alt="we love movies app" className="project-image" />
         </a>
+        <a href="https://flashcard-app-3n73.onrender.com/" target="_blank">
+          <img src={flash} alt="flashcard app" className="project-image" />
+        </a>
         <a href="https://recipe-app-pgkd.onrender.com/" target="_blank">
           <img
             src={recipe}
@@ -40,22 +44,12 @@ const Projects = () => {
             className="project-image recipe"
           />
         </a>
-        <a
-          href="https://periodic-tables-restaurant-reservation-fo68.onrender.com/"
-          target="_blank"
-        >
-          <img
-            src={pTables}
-            alt="periodic tables restaraunt reservation app"
-            className="project-image"
-          />
-        </a>
-        <a
+        {/* <a
           href="https://starter-movie-front-19jdwo4to-cozyfestiv.vercel.app/"
           target="_blank"
         >
           <img src={wlm} alt="we love movies app" className="project-image" />
-        </a>
+        </a> */}
       </div>{" "}
       <button className="projects-btn"> See More</button>
     </section>

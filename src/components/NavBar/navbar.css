@@ -56,8 +56,9 @@ nav.navbar {
 
 .active {
   color: var(--main-color-accent);
-  padding: 0.5rem;
-  border: 2px solid;
+  font-weight: bold;
+  /* padding: 0.5rem;
+  border: 2px solid; */
 }
 
 .mobile-menu {
