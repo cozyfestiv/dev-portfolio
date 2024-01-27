@@ -36,6 +36,14 @@
   margin: 2rem 0;
 }
 
+.recipe {
+  height: 207px;
+}
+
+.sai {
+  height: 207px;
+}
+
 @media screen and (max-width: 840px) {
 }
 
