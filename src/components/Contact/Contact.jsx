@@ -1,18 +1,51 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_x99xm98",
+        "template_hy7voil",
+        form.current,
+        "g95sq1gRnu4K9Hv0D"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Email Sent! Thanks!");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h1 className="contact-title">Contact Me</h1>
       <span className="contact-text">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
-        ullam tempora perferendis amet alias debitis quam quos reiciendis
-        dolores beatae!
+        I would love to hear about your project and how I could help. Please
+        fill in the form, and I’ll get back to you as soon as possible.
       </span>
-      <form action="" className="contact-form">
-        <input type="text" className="name" placeholder="Your Name" />
-        <input type="email" className="email" placeholder="Your Email" />
+      <form action="" className="contact-form" ref={form} onSubmit={sendEmail}>
+        <input
+          type="text"
+          className="name"
+          placeholder="Your Name"
+          name="user_name"
+        />
+        <input
+          type="email"
+          className="email"
+          placeholder="Your Email"
+          name="user_email"
+        />
         <textarea
           name="message"
           id=""
