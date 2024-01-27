@@ -1,0 +1,40 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-text {
+  padding: 1rem;
+  margin: 0 5rem;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.contact-form {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 50%;
+}
+
+.name,
+.email,
+.msg {
+  font-weight: 700;
+  width: 100%;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--main-color-4);
+  color: white;
+  border: none;
+  border-radius: 0.3em;
+}
+
+#contact.contact-form textarea {
+  width: 100%;
+  max-width: 100%;
+  resize: vertical;
+}

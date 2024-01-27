@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+}
+
+body {
+  --main-color-1: #4f6367;
+  --main-color-2: #7a9e9f;
+  --main-color-3: #91bcbd;
+  --main-color-4: #b8d8d8;
+  --main-color-5: #143e53;
+  --main-color-button: #fe5f55;
+  --main-color-button-hover: #fe7a70;
+  --main-color-accent: #f7c548;
+  background-color: var(--main-color-4);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* font-family: "Fraunces", serif; */
+  font-family: "Poppins", sans-serif;
+}

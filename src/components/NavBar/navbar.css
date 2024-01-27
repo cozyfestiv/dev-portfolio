@@ -1,0 +1,135 @@
+nav.navbar {
+  height: 4rem;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0 2rem 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  max-width: 75rem;
+  background-color: var(--main-color-1);
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.logo-wrapper {
+  background-color: var(--main-color-2);
+  display: flex;
+  align-items: center;
+  border-radius: 0.5em 0 0 0;
+}
+
+.logo {
+  height: 4rem;
+  padding: 0.5rem;
+  object-fit: cover;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.desktop-menu-list-item {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.desktop-menu-list-item:hover {
+  color: var(--main-color-accent);
+  padding: 0.6rem 0;
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+  border-left: none;
+  border-right: none;
+}
+
+.desktop-menu-btn {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+
+.active {
+  color: var(--main-color-accent);
+  padding: 0.5rem;
+  border: 2px solid;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: fit-content;
+  min-width: 15rem;
+  background-color: var(--main-color-1);
+  border-radius: 0 0 0.5em 0.5em;
+}
+
+.list-item {
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+}
+
+.burger {
+  display: none;
+  object-fit: cover;
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 840px) {
+  nav.navbar {
+    width: auto;
+    margin: 0;
+    border: 4px solid var(--main-color-4);
+    border-bottom: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: block;
+    height: 3.9rem;
+    border-radius: 0.3em;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav.navbar {
+    width: auto;
+    margin: 0;
+    border: 4px solid var(--main-color-4);
+    border-bottom: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .desktop-menu,
+  .desktop-menu-btn {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: block;
+    height: 3.9rem;
+    border-radius: 0.3em;
+    object-fit: cover;
+  }
+}
