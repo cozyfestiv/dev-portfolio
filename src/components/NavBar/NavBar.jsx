@@ -46,7 +46,7 @@ export function NavBar() {
         >
           Projects
         </Link>
-        <Link
+        {/* <Link
           activeClass="active"
           to=""
           spy={true}
@@ -56,7 +56,7 @@ export function NavBar() {
           className="desktop-menu-list-item"
         >
           Clients
-        </Link>
+        </Link> */}
       </div>
       <button
         className="desktop-menu-btn"

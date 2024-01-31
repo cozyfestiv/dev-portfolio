@@ -23,7 +23,7 @@ const Projects = () => {
             />
           </a>
           <div className="project-text-overlay">
-            <h3 className="project-title">Sai Vang Portfolio</h3>
+            <h3 className="project-title">Personal Website</h3>
             <p className="project-text">
               A client app for making appointments for a car salesman. Developed
               with Kia Moung{" "}
