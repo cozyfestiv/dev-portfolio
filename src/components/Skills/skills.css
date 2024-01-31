@@ -25,6 +25,11 @@
   border-radius: 0.5em;
 }
 
+.skill-bar:hover {
+  transform: scale(1.05);
+  border: 2px solid white;
+}
+
 .skill-bar-text {
   display: flex;
   flex-direction: column;

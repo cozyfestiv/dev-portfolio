@@ -7,14 +7,10 @@ import postgresLogo from "../../assets/postgres.png";
 const Skills = () => {
   return (
     <section id="skills">
-      <h1 className="skill-title">What I do</h1>
+      <h1 className="skill-title">My Stack</h1>
       <span className="skill-text">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
-        sapiente earum perferendis sit illum, totam eos voluptatum, nesciunt
-        libero culpa autem delectus dolore excepturi voluptate quidem alias.
-        Veritatis a impedit sed veniam natus consequatur voluptatibus voluptate
-        ducimus dolorum corporis ut molestiae, quam quaerat autem, soluta,
-        voluptatem odit deserunt hic eveniet!
+        I'm always trying to learn new Libraries, tools, and languages, but this
+        is the spine of my education in software engineering.
       </span>
       <div className="skill-bars">
         <div className="skill-bar">

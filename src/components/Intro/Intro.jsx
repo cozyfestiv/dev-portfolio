@@ -11,11 +11,10 @@ const Intro = () => {
         <span className="intro-text">
           I'm <span className="intro-name">Greg</span>
           <br />
-          <span className="intro-title">Website Designer</span>
+          <span className="intro-title">Software Developer</span>
         </span>
         <p className="intro-p">
-          I am a skilled web designer with experience creating visually
-          appealing and user friendly websites.{" "}
+          I am a software developer with a background in art and writing.{" "}
         </p>
         <Link>
           <button className="btn">Hire Me</button>

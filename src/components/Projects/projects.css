@@ -29,20 +29,68 @@
   height: auto;
   border-radius: 10px;
   object-fit: cover;
-  margin: 0.5rem;
+  margin: 1rem;
+}
+
+.project-image:hover img {
+  filter: grayscale(100%) blur(1px) brightness(50%);
+}
+
+.project-image:hover {
+  transform: scale(1.1);
+}
+
+.project-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  filter: none;
+  width: 100%;
+  /* background-color: black; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.1rem 0 0.5rem;
+}
+
+.project-image:hover .project-text-overlay {
+  opacity: 1;
+}
+
+.project-title {
+  font-size: 1em;
+}
+
+.project-text {
+  font-size: 0.75em;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid;
+}
+
+.project-lang {
+  font-size: 0.65em;
+  text-transform: uppercase;
 }
 
 .projects-btn {
   margin: 2rem 0;
+  display: none;
 }
 
 .recipe {
   height: 207px;
 }
 
-.sai {
+/* .sai {
   height: 207px;
-}
+} */
 
 @media screen and (max-width: 840px) {
 }
