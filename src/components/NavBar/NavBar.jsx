@@ -126,7 +126,7 @@ export function NavBar() {
         </Link> */}
         <Link
           activeClass="active"
-          to=""
+          to="contact"
           spy={true}
           smooth={true}
           offset={-60}
