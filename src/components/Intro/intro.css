@@ -17,6 +17,11 @@
   align-items: center;
 }
 
+.intro-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
 .intro-content {
   padding: 2rem;
   font-size: 3rem;
