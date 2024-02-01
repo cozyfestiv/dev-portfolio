@@ -33,7 +33,7 @@ export function NavBar() {
           duration={500}
           className="desktop-menu-list-item"
         >
-          About
+          Stack
         </Link>
         <Link
           activeClass="active"
@@ -98,7 +98,7 @@ export function NavBar() {
           className="list-item"
           onClick={() => setShowMenu(false)}
         >
-          About
+          Stack
         </Link>
         <Link
           activeClass="active"
@@ -112,7 +112,7 @@ export function NavBar() {
         >
           Projects
         </Link>
-        <Link
+        {/* <Link
           activeClass="active"
           to=""
           spy={true}
@@ -123,7 +123,7 @@ export function NavBar() {
           onClick={() => setShowMenu(false)}
         >
           Clients
-        </Link>
+        </Link> */}
         <Link
           activeClass="active"
           to=""

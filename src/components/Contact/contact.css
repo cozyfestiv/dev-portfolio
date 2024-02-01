@@ -44,3 +44,33 @@ textarea:focus {
   max-width: 100%;
   resize: vertical;
 }
+
+@media screen and (max-width: 840px) {
+  #contact {
+    overflow: auto;
+    height: auto;
+    width: auto;
+    margin: 1rem 4px;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-title {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .contact-text {
+    margin: 0;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 1rem;
+  }
+}

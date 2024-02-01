@@ -48,13 +48,15 @@
     overflow: auto;
     height: auto;
     width: auto;
-    margin: 1rem 4px;
+    margin: 1rem 4px 0 4px;
   }
+
+  .skill-bars {
+    margin: 0 2rem;
+  }
+
   .skill-text {
     padding: 0 2rem;
-  }
-  .skill-bars {
-    margin: 1rem 2rem;
   }
 }
 
@@ -62,6 +64,26 @@
   .skill-text {
     padding: 0 2rem;
   }
+
+  .skill-bar {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+
+  .skill-bar-text {
+    padding: 0 0.3rem;
+  }
+
+  .skill-bar-text h2 {
+    align-self: center;
+    font-size: 2em;
+  }
+
+  .skill-bar-text p {
+    text-align: center;
+    font-size: 1em;
+  }
+
   .skill-bars {
     margin: 1rem;
   }
