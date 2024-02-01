@@ -12,7 +12,7 @@ const Intro = () => {
           I'm <span className="intro-name">Greg</span>
         </span>
         <p className="intro-p">
-          I'm a <span className="intro-title">Software Developer</span> <br />{" "}
+          <span className="intro-title">I'm a Software Developer</span> <br />{" "}
           with a background in art and writing. My mission is to write
           sustainable code for the health of our planet and the people on it.{" "}
         </p>
