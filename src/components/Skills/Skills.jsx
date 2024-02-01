@@ -18,8 +18,10 @@ const Skills = () => {
           <div className="skill-bar-text">
             <h2>React</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
-              voluptates!
+              Working with React hooks like useState and useRef, implementing
+              conditional rendering, ensuring one-way data flow, integrating
+              form libraries for efficient data handling, and utilizing React
+              Router for seamless navigation in web applications.
             </p>
           </div>
         </div>
@@ -28,8 +30,10 @@ const Skills = () => {
           <div className="skill-bar-text">
             <h2>Express</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Mollitia, expedita!
+              Building robust and scalable server-side applications, creating
+              RESTful APIs, handling middleware for routing and authentication,
+              and leveraging features to ensure efficient and secure server
+              operations.
             </p>
           </div>
         </div>
@@ -42,8 +46,9 @@ const Skills = () => {
           <div className="skill-bar-text">
             <h2>PostgreSQL</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium, recusandae.
+              Managing and designing databases, data modeling, writing complex
+              SQL queries, and ensuring seamless integration with server-side
+              applications.
             </p>
           </div>
         </div>
