@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  width: 50%;
+  width: 80%;
 }
 
 input:focus,
@@ -52,11 +52,6 @@ textarea:focus {
     width: auto;
     margin: 1rem 4px;
   }
-
-  .contact-form {
-    width: 100%;
-    padding: 0 3rem;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -70,7 +65,6 @@ textarea:focus {
   }
 
   .contact-form {
-    width: 100%;
-    padding: 1rem;
+    width: 90%;
   }
 }
