@@ -7,7 +7,7 @@ import postgresLogo from "../../assets/postgres.png";
 const Skills = () => {
   return (
     <section id="skills">
-      <h1 className="skill-title">My Stack</h1>
+      <h1 className="section-title">My Stack</h1>
       <span className="skill-text">
         I'm always trying to learn new Libraries, tools, and languages, but this
         is the spine of my education in software engineering.

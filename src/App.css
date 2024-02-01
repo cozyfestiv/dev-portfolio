@@ -33,6 +33,11 @@ section {
   text-align: center;
 }
 
+.section-title {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
 /* .top-nav {
   display: flex;
   justify-content: space-between;

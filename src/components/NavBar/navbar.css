@@ -34,9 +34,11 @@ nav.navbar {
 .desktop-menu-list-item {
   margin: 1rem;
   cursor: pointer;
+  transition: 300ms;
 }
 
-.desktop-menu-list-item:hover {
+.desktop-menu-list-item:hover,
+.desktop-menu-list-item:focus {
   color: var(--main-color-accent);
   padding: 0.6rem 0;
   border-bottom: 2px solid;

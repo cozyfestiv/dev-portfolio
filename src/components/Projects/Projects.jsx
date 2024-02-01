@@ -9,7 +9,7 @@ import flash from "../../assets/portfolio-flash.png";
 const Projects = () => {
   return (
     <section id="projects">
-      <h2 className="projects-title">Projects</h2>
+      <h2 className="section-title">Projects</h2>
       <span className="projects-text">
         (Some projects will look empty at first, but give it a minute to load
         the backend.)

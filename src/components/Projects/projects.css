@@ -2,11 +2,6 @@
   flex-direction: column;
 }
 
-.projects-title {
-  margin: 1rem 0;
-  font-size: 3rem;
-}
-
 .projects-text {
   font-weight: 300;
   font-size: 1rem;
@@ -30,6 +25,7 @@
   border-radius: 10px;
   object-fit: cover;
   margin: 1rem;
+  transition: 200ms;
 }
 
 .project-image:hover img {
