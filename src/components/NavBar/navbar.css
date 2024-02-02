@@ -19,6 +19,7 @@ nav.navbar {
   display: flex;
   align-items: center;
   border-radius: 0.5em 0 0 0;
+  height: 4rem;
 }
 
 .logo {

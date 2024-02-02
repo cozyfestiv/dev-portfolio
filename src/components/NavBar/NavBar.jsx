@@ -9,8 +9,17 @@ export function NavBar() {
   return (
     <nav className="navbar">
       <div className="logo-wrapper">
-        <img src={logo} alt="Logo" className="logo" />
-        <img src={mobileLogo} alt="Logo" className="mobile-logo" />
+        <Link
+          to="intro"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="logo-link"
+        >
+          <img src={logo} alt="Logo" className="logo" />
+          <img src={mobileLogo} alt="Logo" className="mobile-logo" />
+        </Link>
       </div>
       <div className="desktop-menu">
         <Link

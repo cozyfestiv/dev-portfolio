@@ -19,12 +19,13 @@
   text-align: start;
   padding: 1rem;
   border-radius: 0.5em;
-  transition: 300ms;
+  border: 2px solid transparent;
+  transition: transform 300ms, border-color 300ms;
 }
 
 .skill-bar:hover {
   transform: scale(1.05);
-  border: 2px solid white;
+  border-color: white;
 }
 
 .skill-bar-text {

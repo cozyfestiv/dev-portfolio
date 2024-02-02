@@ -106,13 +106,6 @@ const Projects = () => {
             </div>
           </div>
         </a>
-
-        {/* <a
-          href="https://starter-movie-front-19jdwo4to-cozyfestiv.vercel.app/"
-          target="_blank"
-        >
-          <img src={wlm} alt="we love movies app" className="project-image" />
-        </a> */}
       </div>{" "}
       <button className="projects-btn"> See More</button>
     </section>

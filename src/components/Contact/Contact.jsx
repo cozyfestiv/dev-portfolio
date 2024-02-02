@@ -39,12 +39,16 @@ const Contact = () => {
           className="name"
           placeholder="Your Name"
           name="user_name"
+          pattern="[A-Za-z]+"
+          title="Only letters are allowed"
+          required
         />
         <input
           type="email"
           className="email"
           placeholder="Your Email"
           name="user_email"
+          required
         />
         <textarea
           name="message"
@@ -52,6 +56,7 @@ const Contact = () => {
           rows="5"
           className="msg"
           placeholder="Your Message"
+          required
         ></textarea>
         <button type="submit" className="submit-btn" value="Send">
           Submit

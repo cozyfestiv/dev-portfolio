@@ -42,11 +42,7 @@
 
 .project-text-overlay {
   position: absolute;
-  /* top: 50%;
-  left: 60%; */
-  /* transform: translate(-50%, -50%); */
   transform: translate(5%, -108%);
-
   color: #fff;
   font-size: 18px;
   text-align: left;
@@ -68,20 +64,17 @@
 
 .project-title {
   font-size: 1em;
-  /* padding-left: 0.4em; */
 }
 
 .project-text {
   font-size: 0.75em;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid;
-  /* padding-left: 0.5em; */
 }
 
 .project-lang {
   font-size: 0.65em;
   text-transform: uppercase;
-  /* padding-left: 0.5em; */
 }
 
 .projects-btn {
