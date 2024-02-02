@@ -36,11 +36,17 @@
   transform: scale(1.1);
 }
 
+.project-image:hover div {
+  display: flex;
+}
+
 .project-text-overlay {
   position: absolute;
-  top: 50%;
-  left: 60%;
-  transform: translate(-50%, -50%);
+  /* top: 50%;
+  left: 60%; */
+  /* transform: translate(-50%, -50%); */
+  transform: translate(5%, -108%);
+
   color: #fff;
   font-size: 18px;
   text-align: left;
@@ -50,10 +56,10 @@
   width: 100%;
   /* background-color: black; */
   height: 100%;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
-  padding: 0 1.1rem 0 0.5rem;
+  padding: 0 1.1rem 0 1rem;
 }
 
 .project-image:hover .project-text-overlay {
@@ -62,17 +68,20 @@
 
 .project-title {
   font-size: 1em;
+  /* padding-left: 0.4em; */
 }
 
 .project-text {
   font-size: 0.75em;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid;
+  /* padding-left: 0.5em; */
 }
 
 .project-lang {
   font-size: 0.65em;
   text-transform: uppercase;
+  /* padding-left: 0.5em; */
 }
 
 .projects-btn {
