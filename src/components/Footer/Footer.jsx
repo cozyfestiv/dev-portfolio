@@ -14,7 +14,7 @@ const Footer = () => {
             <i className="fab fa-github social-link"></i>
           </a>
 
-          <a href="./src/assets/Greg-Topscher-Resume.pdf" target="_blank">
+          <a href="/Greg-Topscher-Resume.pdf" target="_blank">
             <i className="far fa-file social-link"></i>
           </a>
         </div>
