@@ -3,6 +3,7 @@ import "./skills.css";
 import reactLogo from "../../assets/react.png";
 import expressLogo from "../../assets/express.png";
 import postgresLogo from "../../assets/postgres.png";
+import jsLogo from "../../assets/javascript.png";
 
 const Skills = () => {
   return (
@@ -13,6 +14,23 @@ const Skills = () => {
         is the spine of my education in software engineering.
       </span>
       <div className="skill-bars">
+        <div className="skill-bar">
+          <a
+            href="https://www.flaticon.com/free-icons/javascript"
+            title="Javascript icons created by Freepik - Flaticon"
+          >
+            <img src={jsLogo} alt="javascript logo" className="skill-bar-img" />
+          </a>
+          <div className="skill-bar-text">
+            <h2>Javascript</h2>
+            <p>
+              Manipulate the DOM, handle asynchronous tasks, and implement
+              modern ES6+ features. Utilizing libraries and frameworks like
+              jest, mocha, and chai, to streamline code for cleaner application
+              performance.
+            </p>
+          </div>
+        </div>
         <div className="skill-bar">
           <img src={reactLogo} alt="react logo" className="skill-bar-img" />
           <div className="skill-bar-text">
