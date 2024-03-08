@@ -28,40 +28,47 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h1 className="section-title">Contact Me</h1>
-      <span className="contact-text">
-        I would love to hear about your project and how I could help. Please
-        fill in the form, and I’ll get back to you as soon as possible.
-      </span>
-      <form action="" className="contact-form" ref={form} onSubmit={sendEmail}>
-        <input
-          type="text"
-          className="name"
-          placeholder="Your Name"
-          name="user_name"
-          pattern="[A-Za-z]+"
-          title="Only letters are allowed"
-          required
-        />
-        <input
-          type="email"
-          className="email"
-          placeholder="Your Email"
-          name="user_email"
-          required
-        />
-        <textarea
-          name="message"
-          id=""
-          rows="5"
-          className="msg"
-          placeholder="Your Message"
-          required
-        ></textarea>
-        <button type="submit" className="submit-btn" value="Send">
-          Submit
-        </button>
-      </form>
+      <div className="contact-container">
+        <h1 className="section-title">Contact Me</h1>
+        <span className="contact-text">
+          I would love to hear about your project and how I could help. Please
+          fill in the form, and I’ll get back to you as soon as possible.
+        </span>
+        <form
+          action=""
+          className="contact-form"
+          ref={form}
+          onSubmit={sendEmail}
+        >
+          <input
+            type="text"
+            className="name"
+            placeholder="Your Name"
+            name="user_name"
+            pattern="[A-Za-z]+"
+            title="Only letters are allowed"
+            required
+          />
+          <input
+            type="email"
+            className="email"
+            placeholder="Your Email"
+            name="user_email"
+            required
+          />
+          <textarea
+            name="message"
+            id=""
+            rows="5"
+            className="msg"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" className="submit-btn" value="Send">
+            Submit
+          </button>
+        </form>
+      </div>
     </section>
   );
 };

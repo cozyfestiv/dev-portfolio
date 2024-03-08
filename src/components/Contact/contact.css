@@ -1,10 +1,16 @@
 #contact {
   display: flex;
+}
+
+.contact-container {
+  display: flex;
   flex-direction: column;
+  margin: 0 10rem;
+  align-items: center;
 }
 
 .contact-text {
-  padding: 1rem;
+  padding: 0 1rem;
   margin: 0 5rem 0 5rem;
   font-size: medium;
   font-weight: 300;
