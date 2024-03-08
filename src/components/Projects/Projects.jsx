@@ -5,6 +5,8 @@ import pTables from "../../assets/periodic-tables.png";
 import recipe from "../../assets/portfolio-recipe.png";
 import sai from "../../assets/portfolio-sai.png";
 import flash from "../../assets/portfolio-flash.png";
+import workplace from "../../assets/workplace.png";
+import { Link } from "react-scroll";
 
 const Projects = () => {
   return (
@@ -15,7 +17,28 @@ const Projects = () => {
         the backend.)
       </span>
       <div className="projects-images">
-        <a href="https://client-website.onrender.com/" target="_blank">
+        <Link to="https://workplace-wellness.onrender.com/" target="_blank">
+          <div className="project-image sai">
+            <img
+              src={workplace}
+              alt="sai vang website"
+              className="project-image proj-sai"
+            />
+            <div className="project-text-overlay">
+              <h3 className="project-title">Chegg Hackathon</h3>
+              <p className="project-text">
+                Full-stack website to provide mental health support based on a
+                provided dataset. Made in a team of 6.{" "}
+              </p>
+              <p className="project-lang">
+                {" "}
+                react | html | tailwind css | javascript | express | postgresql
+                | figma |{" "}
+              </p>
+            </div>
+          </div>
+        </Link>
+        <Link to="https://client-website.onrender.com/" target="_blank">
           <div className="project-image sai">
             <img
               src={sai}
@@ -34,9 +57,9 @@ const Projects = () => {
               </p>
             </div>
           </div>
-        </a>
-        <a
-          href="https://periodic-tables-restaurant-reservation-fo68.onrender.com/"
+        </Link>
+        <Link
+          to="https://periodic-tables-restaurant-reservation-fo68.onrender.com/"
           target="_blank"
         >
           <div className="project-image proj-rest">
@@ -58,9 +81,9 @@ const Projects = () => {
               </p>
             </div>
           </div>
-        </a>
-        <a
-          href="https://starter-movie-front-19jdwo4to-cozyfestiv.vercel.app/"
+        </Link>
+        <Link
+          to="https://starter-movie-front-19jdwo4to-cozyfestiv.vercel.app/"
           target="_blank"
         >
           <div className="project-image proj-wlm">
@@ -77,8 +100,8 @@ const Projects = () => {
               </p>
             </div>
           </div>
-        </a>
-        <a href="https://flashcard-app-3n73.onrender.com/" target="_blank">
+        </Link>
+        <Link to="https://flashcard-app-3n73.onrender.com/" target="_blank">
           <div className="project-image proj-flash">
             <img src={flash} alt="flashcard app" className="project-image" />
             <div className="project-text-overlay">
@@ -89,8 +112,8 @@ const Projects = () => {
               <p className="project-lang"> react | html | css | javascript </p>
             </div>
           </div>
-        </a>
-        <a href="https://recipe-app-pgkd.onrender.com/" target="_blank">
+        </Link>
+        <Link to="https://recipe-app-pgkd.onrender.com/" target="_blank">
           <div className="project-image proj-recipe">
             <img
               src={recipe}
@@ -105,7 +128,7 @@ const Projects = () => {
               <p className="project-lang"> react | html | css | javascript </p>
             </div>
           </div>
-        </a>
+        </Link>
       </div>{" "}
       <button className="projects-btn"> See More</button>
     </section>
