@@ -15,6 +15,7 @@ body {
   --main-color-button: #fe5f55;
   --main-color-button-hover: #fe7a70;
   --main-color-accent: #f7c548;
+  --dark-color-1: #2a4646;
   background-color: var(--main-color-4);
   overflow-x: hidden;
   overflow-y: scroll;
