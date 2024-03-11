@@ -21,6 +21,7 @@
   border-radius: 0.5em;
   border: 2px solid transparent;
   transition: transform 300ms, border-color 300ms;
+  color: white;
 }
 
 .skill-bar:hover {
