@@ -21,40 +21,43 @@ export function NavBar() {
           <img src={mobileLogo} alt="Logo" className="mobile-logo" />
         </Link>
       </div>
-      <div className="desktop-menu">
-        <Link
-          activeClass="active"
-          to="intro"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-          className="desktop-menu-list-item"
-        >
-          Home
-        </Link>
-        <Link
-          activeClass="active"
-          to="skills"
-          spy={true}
-          smooth={true}
-          offset={-60}
-          duration={500}
-          className="desktop-menu-list-item"
-        >
-          Stack
-        </Link>
-        <Link
-          activeClass="active"
-          to="projects"
-          spy={true}
-          smooth={true}
-          offset={-60}
-          duration={500}
-          className="desktop-menu-list-item"
-        >
-          Projects
-        </Link>
+      <ul className="desktop-menu">
+        <li className="desktop-menu-list-item">
+          <Link
+            activeClass="active"
+            to="intro"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Home
+          </Link>
+        </li>
+        <li className="desktop-menu-list-item">
+          <Link
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-60}
+            duration={500}
+          >
+            Stack
+          </Link>
+        </li>
+        <li className="desktop-menu-list-item">
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-60}
+            duration={500}
+          >
+            Projects
+          </Link>
+        </li>
         {/* <Link
           activeClass="active"
           to=""
@@ -66,7 +69,7 @@ export function NavBar() {
         >
           Clients
         </Link> */}
-      </div>
+      </ul>
       <button
         className="desktop-menu-btn"
         onClick={() => {

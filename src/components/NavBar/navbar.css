@@ -32,6 +32,11 @@ nav.navbar {
   display: none;
 }
 
+.desktop-menu {
+  display: flex;
+  list-style-type: none;
+}
+
 .desktop-menu-list-item {
   margin: 1rem;
   cursor: pointer;
