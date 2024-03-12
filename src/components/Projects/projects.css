@@ -103,6 +103,9 @@
   .project-image {
     width: 100vw;
     margin: 0.75rem 0;
+    &:last-child {
+      margin-bottom: 2rem;
+    }
   }
 
   .project-text-overlay {
