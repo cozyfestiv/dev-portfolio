@@ -38,46 +38,6 @@ section {
   margin: 1rem 0;
 }
 
-/* .top-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 0.3em 0.3em 0 0;
-  background-color: var(--main-color-1);
-  color: white;
-}
-
-.top-nav-links {
-  display: flex;
-  justify-content: space-around;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.nav-link-text {
-  display: none;
-}
-
-.nav-link-icon {
-  font-size: 2em;
-  padding: 0.25rem;
-  color: white;
-}
-
-.nav-link-wrapper a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-name {
-  padding: 0 0.75rem;
-}
-
-.nav-name a.active {
-  color: white;
-} */
-
 @media screen and (max-width: 840px) {
   #root {
     flex-direction: column;

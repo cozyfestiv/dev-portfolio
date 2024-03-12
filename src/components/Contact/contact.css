@@ -57,6 +57,10 @@ textarea:focus {
   resize: vertical;
 }
 
+.submit-btn {
+  color: black;
+}
+
 @media screen and (max-width: 840px) {
   #contact {
     overflow: auto;
