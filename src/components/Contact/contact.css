@@ -16,7 +16,7 @@
   font-weight: 300;
 }
 
-.contact-form {
+form.contact-form {
   margin: 1rem;
   display: flex;
   flex-direction: column;
@@ -32,10 +32,18 @@
   max-height: 50vh;
 }
 
+input,
+textarea {
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  &::placeholder {
+    color: black;
+  }
+}
+
 input:focus,
 textarea:focus {
-  outline: none;
-  border: 2px solid white;
+  border-color: #143e53;
 }
 
 .name,
@@ -45,9 +53,8 @@ textarea:focus {
   width: 100%;
   margin: 0.5rem;
   padding: 0.5rem 1rem;
-  background-color: var(--main-color-4);
-  color: white;
-  border: none;
+  background-color: white;
+  color: black;
   border-radius: 0.3em;
 }
 
