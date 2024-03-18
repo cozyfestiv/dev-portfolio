@@ -36,12 +36,15 @@ nav.navbar {
 .desktop-menu {
   display: flex;
   list-style-type: none;
+  li {
+    /* display: flex; */
+  }
 }
 
 .desktop-menu-list-item {
-  margin: 1rem;
+  margin: auto 1rem;
   cursor: pointer;
-  transition: 300ms;
+  transition: padding 300ms;
 }
 
 .desktop-menu-list-item:hover,

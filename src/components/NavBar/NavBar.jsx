@@ -114,18 +114,7 @@ export function NavBar() {
           >
             Projects
           </Link>
-          {/* <Link
-          activeClass="active"
-          to=""
-          spy={true}
-          smooth={true}
-          offset={-60}
-          duration={500}
-          className="list-item"
-          onClick={() => setShowMenu(false)}
-        >
-          Clients
-        </Link> */}
+
           <Link
             activeClass="active"
             to="contact"
